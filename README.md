@@ -1,1 +1,11 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/-9dk8STI)
+
+# Admin Dashboard - Grid project
+
+> [!NOTE]
+> This is a study project for programing course.
+
+This project is a webpage with the layout built using CSS Grid.
+
+## Live Preview
+
+The website is published on [GitHub pages](https://patricia-tirolla.github.io/admin-dashboard/)
