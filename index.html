@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="aside.css">
+    <link rel="stylesheet" href="header.css">
     <link href="fontawesome/css/all.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,53 +18,65 @@
 
 <body>
     <header>
+        <div id="search-bar">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <input type="search" id="site-search" name="q" />
+        </div>
+        <div>
 
+        </div>
+        <div>
+
+        </div>
+        <div id="nav-list">
+            <nav></nav>
+        </div>
     </header>
     <aside>
         <div id="aside-title">
             <i class="fa-brands fa-trello"></i>
             <h2 id="dashboard-title">Dashboard</h2>
         </div>
-        <div id="home-block">
-            <div class="dashboard-row">
+        <ul id="home-block">
+            <li class="dashboard-row">
                 <i class="fas fa-home"></i>
                 <h3 class="dashboard-item">Home</h3>
-            </div>
-            <div class="dashboard-row">
+            </li>
+            <li class="dashboard-row">
                 <i class="fa-regular fa-address-card"></i>
                 <h3 class="dashboard-item">Profile</h3>
-            </div>
-            <div class="dashboard-row">
+            </li>
+            <li class="dashboard-row">
                 <i class="fa-solid fa-message"></i>
                 <h3 class="dashboard-item">Messages</h3>
-            </div>
-            <div class="dashboard-row">
+            </li>
+            <li class="dashboard-row">
                 <i class="fa-solid fa-clock"></i>
                 <h3 class="dashboard-item">Histoy</h3>
-            </div>
-            <div class="dashboard-row">
+            </li>
+            <li class="dashboard-row">
                 <i class="fa-solid fa-list-check"></i>
                 <h3 class="dashboard-item">Tasks</h3>
-            </div>
-            <div class="dashboard-row">
+            </li>
+            <li class="dashboard-row">
                 <i class="fa-solid fa-users-line"></i>
                 <h3 class="dashboard-item">Communities</h3>
-            </div>
-        </div>
-        <div id="settings-block">
-            <div class="dashboard-row">
+            </li>
+        </ul>
+        <ul id="settings-block">
+            <li class="dashboard-row">
                 <i class="fa-solid fa-gear"></i>
                 <h3 class="dashboard-item">Settings</h3>
-            </div>
-            <div class="dashboard-row">
+            </li>
+            <li class="dashboard-row">
                 <i class="fa-solid fa-circle-question"></i>
                 <h3 class="dashboard-item">Support</h3>
-            </div>
-            <div class="dashboard-row">
+            </li>
+            <li class="dashboard-row">
                 <i class="fa-solid fa-shield-halved"></i>
                 <h3 class="dashboard-item">Privacy</h3>
-            </div>
-        </div>
+            </li>
+        </ul>
     </aside>
     <main>
         <section id="project-list">
