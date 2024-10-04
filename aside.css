@@ -1,0 +1,40 @@
+#aside-title {
+    display: flex;
+}
+
+#dashboard-title {
+    color: var(--white-text);
+    height: fit-content;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+
+#home-block, #settings-block{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.dashboard-row {
+    display: flex;
+}
+
+
+/* Styling */
+
+#home-block i, #settings-block i {
+    width: 50px;
+}
+
+aside h3, i {
+    font-size: 1.3em;
+    padding-bottom: 1em;
+    color: var(--white-text);
+    font-weight: var(--h3-font-weight);
+}
+
+#aside-title i {
+    font-size: 2em;
+    width: 60px;
+}

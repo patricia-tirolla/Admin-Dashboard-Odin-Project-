@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aside.css">
     <link href="/fontawesome/css/all.min.css" rel="stylesheet" />
-   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -15,26 +20,54 @@
 
     </header>
     <aside>
-        <h2>Dashboard</h2>
-        <div>
-            <p>Home</p>
-            <p>Profile</p>
-            <p>Messages</p>
-            <p>Histoy</p>
-            <p>Tasks</p>
-            <p>Communities</p>
+        <div id="aside-title">
+            <i class="fa-brands fa-trello"></i>
+            <h2 id="dashboard-title">Dashboard</h2>
         </div>
-        <div>
-            <p>Settings</p>
-            <p>Support</p>
-            <p>Privacy</p>
+        <div id="home-block">
+            <div class="dashboard-row">
+                <i class="fas fa-home"></i>
+                <h3 class="dashboard-item">Home</h3>
+            </div>
+            <div class="dashboard-row">
+                <i class="fa-regular fa-address-card"></i>
+                <h3 class="dashboard-item">Profile</h3>
+            </div>
+            <div class="dashboard-row">
+                <i class="fa-solid fa-message"></i>
+                <h3 class="dashboard-item">Messages</h3>
+            </div>
+            <div class="dashboard-row">
+                <i class="fa-solid fa-clock"></i>
+                <h3 class="dashboard-item">Histoy</h3>
+            </div>
+            <div class="dashboard-row">
+                <i class="fa-solid fa-list-check"></i>
+                <h3 class="dashboard-item">Tasks</h3>
+            </div>
+            <div class="dashboard-row">
+                <i class="fa-solid fa-users-line"></i>
+                <h3 class="dashboard-item">Communities</h3>
+            </div>
+        </div>
+        <div id="settings-block">
+            <div class="dashboard-row">
+                <i class="fa-solid fa-gear"></i>
+                <h3 class="dashboard-item">Settings</h3>
+            </div>
+            <div class="dashboard-row">
+                <i class="fa-solid fa-circle-question"></i>
+                <h3 class="dashboard-item">Support</h3>
+            </div>
+            <div class="dashboard-row">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h3 class="dashboard-item">Privacy</h3>
+            </div>
         </div>
     </aside>
     <main>
         <section id="project-list">
-            <h2>Your Projects	
-                <i class="fas fa-home"></i>
-            </h2>
+            <h3>Your Projects</h3>
             <section class="card-list">
                 <div class="card-item"></div>
                 <div class="card-item"></div>
@@ -45,7 +78,7 @@
             </section>
         </section>
         <section id="news-list">
-            <h2>Announcements</h2>
+            <h3>Announcements</h3>
             <section class="card-list">
                 <div class="card-item"></div>
                 <div class="card-item"></div>
