@@ -2,77 +2,109 @@
     margin: 0;
 }
 
-/* GLOBAL | site wide */
+/* ---- GLOBAL | site wide ----*/
 
 body {
+
+    /* Display sets */
     display: grid;
-    width: 100vw;
-    height: 100vh;
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(5, 1fr);
+
+    /* Styling */
+    width: 100vw;
+    height: 100vh;
 }
 
 header {
-    background-color: #FFFFFF;
+
+    /* Display sets */
     grid-area: 1 / 2 / 2 / 6;
+
+    /* Styling */
+    background-color: #FFFFFF;
 }
 
 aside {
-    background-color: #1892D4;
+    /* Display sets */
+
+    display: grid;
     grid-area: 1 / 1 / 5 / 2;
+
+    /* Styling */
+    background-color: #1892D4;
 }
 
 main {
+
+    /* Display sets */
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
     grid-area: 2 / 2 / 6 / 6;
+
+    /* Styling */
     background-color: #E2E8F0;
     gap: 30px;
 }
 
 
 h2 {
+    /* Styling */
     width: 100%;
     height: fit-content;
 }
 
-/* project-list styling */
+/* project-list setting and styling */
 
 #project-list {
+
+    /* Display sets */
     display: flex;
     grid-area: 1 / 1 / 4 / 3;
     flex-direction: column;
 }
 
 #project-list .card-list {
+
+    /* Display sets */
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2, 1fr);
+
+    /* Styling */
     gap: 30px;
     height: 100%;
     margin: 40px 0 50px 30px;
 }
 
 #project-list .card-item {
+    
+    /* Styling */
     background-color: white;
     border-left: solid #F0B429 10px;
     border-radius: 10px;
 }
 
 
-/* news-list styling */
+/* news-list setting and styling */
 
 #news-list {
+
+    /* Display sets */
     display: flex;
     grid-area: 1 / 3 / 4 / 4;
     flex-direction: column;
 }
 
 #news-list .card-list {
+
+    /* Display sets */
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(1, 1fr);
+
+    /* Styling */
     height: 100%;
     margin: 40px 30px 50px 0;
     gap: 50px;
@@ -80,8 +112,9 @@ h2 {
 
 
 #news-list .card-item {
+
+    /* Styling */
     background-color: white;
     border-radius: 10px;
 }
 
-/* Styling */
