@@ -27,7 +27,7 @@
     width: 50px;
 }
 
-aside h3, i {
+aside h3, aside i {
     font-size: 1.3em;
     padding-bottom: 1em;
     color: var(--white-text);

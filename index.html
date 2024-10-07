@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="aside.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
     <link href="fontawesome/css/all.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,25 +19,45 @@
 
 <body>
     <header>
-        <div id="search-bar">
+
+        <div id="search-bar-container">
             <button><i class="fa-solid fa-magnifying-glass"></i></button>
-            <input type="search" id="site-search" name="q" />
+            <input type="search" id="search-bar" name="q" />
         </div>
-        <div>
 
+        <div id="user-display">
+            <i id="bell" class="fa-regular fa-bell"></i>
+            <img id="cat-logo-small" class="cat-logo" src="/assets/img/Screenshot 2024-10-07 at 10.17.02.png"
+                alt="cat logo">
+            <h4 class="user-name">Morgan Oakley</h4>
         </div>
-        <div>
 
+        <div id="hi-there-user">
+            <img id="cat-logo-big" class="cat-logo" src="/assets/img/Screenshot 2024-10-07 at 10.17.02.png"
+                alt="cat logo">
+            <div id="text-box">
+                <p>Hi there,</p>
+                <h3 class="user-name">Morgan Oakley (@morgan)</h3>
+            </div>
         </div>
-        <div id="nav-list">
-            <nav></nav>
-        </div>
+
+        <nav id="nav-bar">
+            <ul>
+                <li><a>New</a></li>
+                <li><a>Upload</a></li>
+                <li><a>Share</a></li>
+            </ul>
+        </nav>
+
     </header>
+
     <aside>
+
         <div id="aside-title">
             <i class="fa-brands fa-trello"></i>
             <h2 id="dashboard-title">Dashboard</h2>
         </div>
+
         <ul id="home-block">
             <li class="dashboard-row">
                 <i class="fas fa-home"></i>
@@ -63,6 +84,7 @@
                 <h3 class="dashboard-item">Communities</h3>
             </li>
         </ul>
+
         <ul id="settings-block">
             <li class="dashboard-row">
                 <i class="fa-solid fa-gear"></i>
@@ -77,26 +99,128 @@
                 <h3 class="dashboard-item">Privacy</h3>
             </li>
         </ul>
+
     </aside>
+
     <main>
+
         <section id="project-list">
             <h3>Your Projects</h3>
+
             <section class="card-list">
-                <div class="card-item"></div>
-                <div class="card-item"></div>
-                <div class="card-item"></div>
-                <div class="card-item"></div>
-                <div class="card-item"></div>
-                <div class="card-item"></div>
+                <div class="card-item">
+                    <h3>Super Cool Project</h3>
+                    <p>Sed tempus ut lacus ut scelerisque.<br>
+                        Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                    <div class="card-icons">
+                        <button><i class="fa-regular fa-star"></i></button>
+                        <button><i class="fa-regular fa-eye"></i></button>
+                        <button><i class="fa-regular fa-share-from-square"></i></button>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <h3>Less Cool Project</h3>
+                    <p>Nullam condimentum ipsum ut lectus vehicula
+                        consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem
+                        purus, dignissim ut sapien in, varius pellentesque lacus.</p>
+                    <div class="card-icons">
+                        <button><i class="fa-regular fa-star"></i></button>
+                        <button><i class="fa-regular fa-eye"></i></button>
+                        <button><i class="fa-regular fa-share-from-square"></i></button>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <h3>Impossible App</h3>
+                    <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+                    <div class="card-icons">
+                        <button><i class="fa-regular fa-star"></i></button>
+                        <button><i class="fa-regular fa-eye"></i></button>
+                        <button><i class="fa-regular fa-share-from-square"></i></button>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <h3>Easy Peasy App</h3>
+                    <p>Etiam cursus eros ac efficitur fringilla.<br>
+                        Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac
+                        bibendum magna tincidunt.</p>
+                    <div class="card-icons">
+                        <button><i class="fa-regular fa-star"></i></button>
+                        <button><i class="fa-regular fa-eye"></i></button>
+                        <button><i class="fa-regular fa-share-from-square"></i></button>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <h3>Ad Blocker</h3>
+                    <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra
+                        hendrerit felis. Aliquam sed malesuada eros.</p>
+                    <div class="card-icons">
+                        <button><i class="fa-regular fa-star"></i></button>
+                        <button><i class="fa-regular fa-eye"></i></button>
+                        <button><i class="fa-regular fa-share-from-square"></i></button>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <h3>Money Maker</h3>
+                    <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque
+                        tortor purus sit amet ex.<br>
+                        Pellentesque mollis nec sem vel aliquam.</p>
+                    <div class="card-icons">
+                        <button><i class="fa-regular fa-star"></i></button>
+                        <button><i class="fa-regular fa-eye"></i></button>
+                        <button><i class="fa-regular fa-share-from-square"></i></button>
+                    </div>
+                </div>
             </section>
+
         </section>
+
         <section id="news-list">
+
             <h3>Announcements</h3>
-            <section class="card-list">
-                <div class="card-item"></div>
-                <div class="card-item"></div>
-            </section>
+            <div class="card-item" id="card-item-announcements">
+                <h5>Site Maintenance</h5>
+                <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec
+                    hendrerit sodales congue…</p><hr>
+                <h5>Community Share Day</h5>
+                <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum
+                    accumsan porttitor...</p><hr>
+                <h5>Updated Privacy Policy</h5>
+                <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis
+                    sem in mattis.</p>
+            </div>
+
+            <h3>Trendings</h3>
+            <div class="card-item" id="trendings">
+                <div class="trendings-row">
+                    <img src="assets/img/dog.png" alt="dog logo">
+                    <p>@tegan<br>World Peace Builder</p>
+                </div>
+
+                <div class="trendings-row">
+                    <img src="assets/img/Screenshot 2024-10-07 at 10.17.02.png" alt="cat logo">
+                    <p>@morgan<br>
+                        Super Cool Project</p>
+                </div>
+
+                <div class="trendings-row">
+                    <img src="assets/img/alien.png" alt="alien logo">
+                    <p>@kendall<br>
+                        Life Changing App</p>
+                </div>
+
+                <div class="trendings-row">
+                    <img src="assets/img/penguim.png" alt="penguim logo">
+                    <p>@alex<br>
+                        No Traffic Maker</p>
+                </div>
+            </div>
         </section>
+
     </main>
 </body>
 
